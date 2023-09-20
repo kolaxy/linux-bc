@@ -1,0 +1,17 @@
+{
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Material Theme Ocean",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "workbench.colorCustomizations": {
+        "terminal.findMatchBackground": "#aaaaaa6e"
+    },
+    "window.commandCenter": false,
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.gpuAcceleration": "off"
+    
+    
+}
