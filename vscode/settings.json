@@ -4,13 +4,19 @@
     "workbench.iconTheme": "material-icon-theme",
     "files.autoSave": "afterDelay",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
-    },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+      },
     "workbench.colorCustomizations": {
         "terminal.findMatchBackground": "#aaaaaa6e"
     },
     "window.commandCenter": false,
     "tabnine.experimentalAutoImports": true,
     "terminal.integrated.gpuAcceleration": "off",
-    "python.experiments.optOutFrom": ["pythonTerminalEnvVarActivation"]
+    "python.experiments.optOutFrom": [
+        "pythonTerminalEnvVarActivation"
+    ],
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "120"],
+    "python.linting.enabled": true
 }
