@@ -4,7 +4,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "files.autoSave": "afterDelay",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "ms-python.black-formatter",
       },
     "workbench.colorCustomizations": {
         "terminal.findMatchBackground": "#aaaaaa6e"
@@ -16,7 +16,8 @@
         "pythonTerminalEnvVarActivation"
     ],
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": ["--line-length", "120"],
-    "python.linting.enabled": true
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "black-formatter.args": [
+        "--line-length=80"
+    ],
 }
